@@ -1,0 +1,99 @@
+route,code_1,code_2,airport_1,airport_2,DepCountry,ArrCountry,DepAirport,ArrAirport,lat_1,long_1,lat_2,long_2,distance,EmissionsKgsCO2e
+1,AKL,BHE,Auckland,Blenheim,New Zealand,New Zealand,Auckland (AKL),Blenheim (BHE),-36.8406,174.74,-41.514,173.96,507,98.358
+2,AKL,CHC,Auckland,Christchurch,New Zealand,New Zealand,Auckland (AKL),Christchurch (CHC),-36.8406,174.74,-43.531,172.6365,745,144.53
+3,AKL,CHT,Auckland,Chatham Islands,New Zealand,New Zealand,Auckland (AKL),Chatham Islands (CHT),-36.8406,174.74,-43.9514,-176.5611,1058,205.252
+4,AKL,DUD,Auckland,Dunedin,New Zealand,New Zealand,Auckland (AKL),Dunedin (DUD),-36.8406,174.74,-45.8742,170.5036,1062,206.028
+5,AKL,GIS,Auckland,Gisborne,New Zealand,New Zealand,Auckland (AKL),Gisborne (GIS),-36.8406,174.74,-38.6625,178.0178,335,64.99
+6,AKL,IVC,Auckland,Invercargill,New Zealand,New Zealand,Auckland (AKL),Invercargill (IVC),-36.8406,174.74,-46.4131,168.3475,1174,227.756
+7,AKL,KKE,Auckland,Kerikeri,New Zealand,New Zealand,Auckland (AKL),Kerikeri (KKE),-36.8406,174.74,-35.2244,173.9514,209,40.546
+8,AKL,NPE,Auckland,Napier,New Zealand,New Zealand,Auckland (AKL),Napier (NPE),-36.8406,174.74,-39.4903,176.9178,328,63.632
+9,AKL,NPL,Auckland,New Plymouth,New Zealand,New Zealand,Auckland (AKL),New Plymouth (NPL),-36.8406,174.74,-39.0578,174.0742,229,44.426
+10,AKL,NSN,Auckland,Nelson,New Zealand,New Zealand,Auckland (AKL),Nelson (NSN),-36.8406,174.74,-41.2708,173.2839,495,96.03
+11,AKL,PMR,Auckland,Palmerston North,New Zealand,New Zealand,Auckland (AKL),Palmerston North (PMR),-36.8406,174.74,-40.355,175.6117,375,72.75
+12,AKL,PPQ,Auckland,Paraparaumu,New Zealand,New Zealand,Auckland (AKL),Paraparaumu (PPQ),-36.8406,174.74,-40.9144,175.0056,433,84.002
+13,AKL,ROT,Auckland,Rotorua,New Zealand,New Zealand,Auckland (AKL),Rotorua (ROT),-36.8406,174.74,-38.1378,176.2514,182,35.308
+14,AKL,TRG,Auckland,Tauranga,New Zealand,New Zealand,Auckland (AKL),Tauranga (TRG),-36.8406,174.74,-37.6833,176.1667,145,28.13
+15,AKL,TUO,Auckland,Taupo,New Zealand,New Zealand,Auckland (AKL),Taupo (TUO),-36.8406,174.74,-38.6875,176.0694,223,43.262
+16,AKL,WAG,Auckland,Whanganui,New Zealand,New Zealand,Auckland (AKL),Whanganui (WAG),-36.8406,174.74,-39.9331,175.0286,329,63.826
+17,AKL,WHK,Auckland,Whakatane,New Zealand,New Zealand,Auckland (AKL),Whakatane (WHK),-36.8406,174.74,-37.96,176.98,213,41.322
+18,AKL,WLG,Auckland,Wellington,New Zealand,New Zealand,Auckland (AKL),Wellington (WLG),-36.8406,174.74,-41.2889,174.7772,479,92.926
+19,AKL,WRE,Auckland,Whangarei,New Zealand,New Zealand,Auckland (AKL),Whangarei (WRE),-36.8406,174.74,-35.725,174.3236,143,27.742
+20,AKL,ZQN,Auckland,Queenstown,New Zealand,New Zealand,Auckland (AKL),Queenstown (ZQN),-36.8406,174.74,-45.031162,168.662643,1025,198.85
+21,BHE,AKL,Blenheim,Auckland,New Zealand,New Zealand,Blenheim (BHE),Auckland (AKL),-41.514,173.96,-36.8406,174.74,507,98.358
+22,BHE,PPQ,Blenheim,Paraparaumu,New Zealand,New Zealand,Blenheim (BHE),Paraparaumu (PPQ),-41.514,173.96,-40.9144,175.0056,116,22.504
+23,BHE,WLG,Blenheim,Wellington,New Zealand,New Zealand,Blenheim (BHE),Wellington (WLG),-41.514,173.96,-41.2889,174.7772,81,15.714
+24,CHC,AKL,Christchurch,Auckland,New Zealand,New Zealand,Christchurch (CHC),Auckland (AKL),-43.531,172.6365,-36.8406,174.74,745,144.53
+25,CHC,HLZ,Christchurch,Hamilton,New Zealand,New Zealand,Christchurch (CHC),Hamilton (HLZ),-43.531,172.6365,-37.7833,175.2833,668,129.592
+26,CHC,TRG,Christchurch,Tauranga,New Zealand,New Zealand,Christchurch (CHC),Tauranga (TRG),-43.531,172.6365,-37.6833,176.1667,716,138.904
+27,CHC,ROT,Christchurch,Rotorua,New Zealand,New Zealand,Christchurch (CHC),Rotorua (ROT),-43.531,172.6365,-38.1378,176.2514,677,131.338
+28,CHC,NPL,Christchurch,New Plymouth,New Zealand,New Zealand,Christchurch (CHC),New Plymouth (NPL),-43.531,172.6365,-39.0578,174.0742,516,100.104
+29,CHC,NPE,Christchurch,Napier,New Zealand,New Zealand,Christchurch (CHC),Napier (NPE),-43.531,172.6365,-39.4903,176.9178,575,111.55
+30,CHC,PMR,Christchurch,Palmerston North,New Zealand,New Zealand,Christchurch (CHC),Palmerston North (PMR),-43.531,172.6365,-40.355,175.6117,435,84.39
+31,CHC,WLG,Christchurch,Wellington,New Zealand,New Zealand,Christchurch (CHC),Wellington (WLG),-43.531,172.6365,-41.2889,174.7772,304,58.976
+32,CHC,CHT,Christchurch,Chatham Islands,New Zealand,New Zealand,Christchurch (CHC),Chatham Islands (CHT),-43.531,172.6365,-43.9514,-176.5611,888,172.272
+33,CHC,NSN,Christchurch,Nelson,New Zealand,New Zealand,Christchurch (CHC),Nelson (NSN),-43.531,172.6365,-41.2708,173.2839,250,48.5
+34,CHC,HKK,Christchurch,Hokitika,New Zealand,New Zealand,Christchurch (CHC),Hokitika (HKK),-43.531,172.6365,-42.7156,170.9681,153,29.682
+35,CHC,ZQN,Christchurch,Queenstown,New Zealand,New Zealand,Christchurch (CHC),Queenstown (ZQN),-43.531,172.6365,-45.031162,168.662643,347,67.318
+36,CHC,DUD,Christchurch,Dunedin,New Zealand,New Zealand,Christchurch (CHC),Dunedin (DUD),-43.531,172.6365,-45.8742,170.5036,328,63.632
+37,CHC,IVC,Christchurch,Invercargill,New Zealand,New Zealand,Christchurch (CHC),Invercargill (IVC),-43.531,172.6365,-46.4131,168.3475,465,90.21
+38,DUD,AKL,Dunedin,Auckland,New Zealand,New Zealand,Dunedin (DUD),Auckland (AKL),-45.8742,170.5036,-36.8406,174.74,1062,206.028
+39,DUD,WLG,Dunedin,Wellington,New Zealand,New Zealand,Dunedin (DUD),Wellington (WLG),-45.8742,170.5036,-41.2889,174.7772,632,122.608
+40,DUD,CHC,Dunedin,Christchurch,New Zealand,New Zealand,Dunedin (DUD),Christchurch (CHC),-45.8742,170.5036,-43.531,172.6365,328,63.632
+41,GIS,AKL,Gisborne,Auckland,New Zealand,New Zealand,Gisborne (GIS),Auckland (AKL),-38.6625,178.0178,-36.8406,174.74,335,64.99
+42,GIS,WLG,Gisborne,Wellington,New Zealand,New Zealand,Gisborne (GIS),Wellington (WLG),-38.6625,178.0178,-41.2889,174.7772,401,77.794
+43,HLZ,WLG,Hamilton,Wellington,New Zealand,New Zealand,Hamilton (HLZ),Wellington (WLG),-37.7833,175.2833,-41.2889,174.7772,387,75.078
+44,HLZ,CHC,Hamilton,Christchurch,New Zealand,New Zealand,Hamilton (HLZ),Christchurch (CHC),-37.7833,175.2833,-43.531,172.6365,668,129.592
+45,HKK,CHC,Hokitika,Christchurch,New Zealand,New Zealand,Hokitika (HKK),Christchurch (CHC),-42.7156,170.9681,-43.531,172.6365,153,29.682
+46,IVC,AKL,Invercargill,Auckland,New Zealand,New Zealand,Invercargill (IVC),Auckland (AKL),-46.4131,168.3475,-36.8406,174.74,1174,227.756
+47,IVC,CHC,Invercargill,Christchurch,New Zealand,New Zealand,Invercargill (IVC),Christchurch (CHC),-46.4131,168.3475,-43.531,172.6365,465,90.21
+48,KKE,AKL,Kerikeri,Auckland,New Zealand,New Zealand,Kerikeri (KKE),Auckland (AKL),-35.2244,173.9514,-36.8406,174.74,209,40.546
+49,NPE,AKL,Napier,Auckland,New Zealand,New Zealand,Napier (NPE),Auckland (AKL),-39.4903,176.9178,-36.8406,174.74,328,63.632
+50,NPE,WLG,Napier,Wellington,New Zealand,New Zealand,Napier (NPE),Wellington (WLG),-39.4903,176.9178,-41.2889,174.7772,271,52.574
+51,NPE,CHC,Napier,Christchurch,New Zealand,New Zealand,Napier (NPE),Christchurch (CHC),-39.4903,176.9178,-43.531,172.6365,575,111.55
+52,NSN,AKL,Nelson,Auckland,New Zealand,New Zealand,Nelson (NSN),Auckland (AKL),-41.2708,173.2839,-36.8406,174.74,495,96.03
+53,NSN,PPQ,Nelson,Paraparaumu,New Zealand,New Zealand,Nelson (NSN),Paraparaumu (PPQ),-41.2708,173.2839,-40.9144,175.0056,155,30.07
+54,NSN,WLG,Nelson,Wellington,New Zealand,New Zealand,Nelson (NSN),Wellington (WLG),-41.2708,173.2839,-41.2889,174.7772,133,25.802
+55,NSN,CHC,Nelson,Christchurch,New Zealand,New Zealand,Nelson (NSN),Christchurch (CHC),-41.2708,173.2839,-43.531,172.6365,250,48.5
+56,NPL,AKL,New Plymouth,Auckland,New Zealand,New Zealand,New Plymouth (NPL),Auckland (AKL),-39.0578,174.0742,-36.8406,174.74,229,44.426
+57,NPL,WLG,New Plymouth,Wellington,New Zealand,New Zealand,New Plymouth (NPL),Wellington (WLG),-39.0578,174.0742,-41.2889,174.7772,263,51.022
+58,NPL,CHC,New Plymouth,Christchurch,New Zealand,New Zealand,New Plymouth (NPL),Christchurch (CHC),-39.0578,174.0742,-43.531,172.6365,516,100.104
+59,PMR,AKL,Palmerston North,Auckland,New Zealand,New Zealand,Palmerston North (PMR),Auckland (AKL),-40.355,175.6117,-36.8406,174.74,375,72.75
+60,PMR,CHC,Palmerston North,Christchurch,New Zealand,New Zealand,Palmerston North (PMR),Christchurch (CHC),-40.355,175.6117,-43.531,172.6365,435,84.39
+61,PPQ,AKL,Paraparaumu,Auckland,New Zealand,New Zealand,Paraparaumu (PPQ),Auckland (AKL),-40.9144,175.0056,-36.8406,174.74,433,84.002
+62,PPQ,WAG,Paraparaumu,Whanganui,New Zealand,New Zealand,Paraparaumu (PPQ),Whanganui (WAG),-40.9144,175.0056,-39.9331,175.0286,105,20.37
+63,PPQ,NSN,Paraparaumu,Nelson,New Zealand,New Zealand,Paraparaumu (PPQ),Nelson (NSN),-40.9144,175.0056,-41.2708,173.2839,155,30.07
+64,PPQ,BHE,Paraparaumu,Blenheim,New Zealand,New Zealand,Paraparaumu (PPQ),Blenheim (BHE),-40.9144,175.0056,-41.514,173.96,116,22.504
+65,PCN,WLG,Picton,Wellington,New Zealand,New Zealand,Picton (PCN),Wellington (WLG),-41.2907,174.0056,-41.2889,174.7772,71,13.774
+66,ZQN,AKL,Queenstown,Auckland,New Zealand,New Zealand,Queenstown (ZQN),Auckland (AKL),-45.031162,168.662643,-36.8406,174.74,1025,198.85
+67,ZQN,WLG,Queenstown,Wellington,New Zealand,New Zealand,Queenstown (ZQN),Wellington (WLG),-45.031162,168.662643,-41.2889,174.7772,641,124.354
+68,ZQN,CHC,Queenstown,Christchurch,New Zealand,New Zealand,Queenstown (ZQN),Christchurch (CHC),-45.031162,168.662643,-43.531,172.6365,347,67.318
+69,ROT,AKL,Rotorua,Auckland,New Zealand,New Zealand,Rotorua (ROT),Auckland (AKL),-38.1378,176.2514,-36.8406,174.74,182,35.308
+70,ROT,WLG,Rotorua,Wellington,New Zealand,New Zealand,Rotorua (ROT),Wellington (WLG),-38.1378,176.2514,-41.2889,174.7772,380,73.72
+71,ROT,CHC,Rotorua,Christchurch,New Zealand,New Zealand,Rotorua (ROT),Christchurch (CHC),-38.1378,176.2514,-43.531,172.6365,677,131.338
+72,TUO,AKL,Taupo,Auckland,New Zealand,New Zealand,Taupo (TUO),Auckland (AKL),-38.6875,176.0694,-36.8406,174.74,223,43.262
+73,TRG,AKL,Tauranga,Auckland,New Zealand,New Zealand,Tauranga (TRG),Auckland (AKL),-37.6833,176.1667,-36.8406,174.74,145,28.13
+74,TRG,WLG,Tauranga,Wellington,New Zealand,New Zealand,Tauranga (TRG),Wellington (WLG),-37.6833,176.1667,-41.2889,174.7772,423,82.062
+75,TRG,CHC,Tauranga,Christchurch,New Zealand,New Zealand,Tauranga (TRG),Christchurch (CHC),-37.6833,176.1667,-43.531,172.6365,716,138.904
+76,TIU,WLG,Timaru,Wellington,New Zealand,New Zealand,Timaru (TIU),Wellington (WLG),-44.3931,171.2508,-41.2889,174.7772,442,85.748
+77,CHT,AKL,Chatham Islands,Auckland,New Zealand,New Zealand,Chatham Islands (CHT),Auckland (AKL),-43.9514,-176.5611,-36.8406,174.74,1058,205.252
+78,CHT,WLG,Chatham Islands,Wellington,New Zealand,New Zealand,Chatham Islands (CHT),Wellington (WLG),-43.9514,-176.5611,-41.2889,174.7772,768,148.992
+79,CHT,CHC,Chatham Islands,Christchurch,New Zealand,New Zealand,Chatham Islands (CHT),Christchurch (CHC),-43.9514,-176.5611,-43.531,172.6365,888,172.272
+80,WLG,AKL,Wellington,Auckland,New Zealand,New Zealand,Wellington (WLG),Auckland (AKL),-41.2889,174.7772,-36.8406,174.74,479,92.926
+81,WLG,HLZ,Wellington,Hamilton,New Zealand,New Zealand,Wellington (WLG),Hamilton (HLZ),-41.2889,174.7772,-37.7833,175.2833,387,75.078
+82,WLG,TRG,Wellington,Tauranga,New Zealand,New Zealand,Wellington (WLG),Tauranga (TRG),-41.2889,174.7772,-37.6833,176.1667,423,82.062
+83,WLG,ROT,Wellington,Rotorua,New Zealand,New Zealand,Wellington (WLG),Rotorua (ROT),-41.2889,174.7772,-38.1378,176.2514,380,73.72
+84,WLG,GIS,Wellington,Gisborne,New Zealand,New Zealand,Wellington (WLG),Gisborne (GIS),-41.2889,174.7772,-38.6625,178.0178,401,77.794
+85,WLG,NPL,Wellington,New Plymouth,New Zealand,New Zealand,Wellington (WLG),New Plymouth (NPL),-41.2889,174.7772,-39.0578,174.0742,263,51.022
+86,WLG,NPE,Wellington,Napier,New Zealand,New Zealand,Wellington (WLG),Napier (NPE),-41.2889,174.7772,-39.4903,176.9178,271,52.574
+87,WLG,CHT,Wellington,Chatham Islands,New Zealand,New Zealand,Wellington (WLG),Chatham Islands (CHT),-41.2889,174.7772,-43.9514,-176.5611,768,148.992
+88,WLG,NSN,Wellington,Nelson,New Zealand,New Zealand,Wellington (WLG),Nelson (NSN),-41.2889,174.7772,-41.2708,173.2839,133,25.802
+89,WLG,PCN,Wellington,Picton,New Zealand,New Zealand,Wellington (WLG),Picton (PCN),-41.2889,174.7772,-41.2907,174.0056,71,13.774
+90,WLG,BHE,Wellington,Blenheim,New Zealand,New Zealand,Wellington (WLG),Blenheim (BHE),-41.2889,174.7772,-41.514,173.96,81,15.714
+91,WLG,CHC,Wellington,Christchurch,New Zealand,New Zealand,Wellington (WLG),Christchurch (CHC),-41.2889,174.7772,-43.531,172.6365,304,58.976
+92,WLG,TIU,Wellington,Timaru,New Zealand,New Zealand,Wellington (WLG),Timaru (TIU),-41.2889,174.7772,-44.3931,171.2508,442,85.748
+93,WLG,ZQN,Wellington,Queenstown,New Zealand,New Zealand,Wellington (WLG),Queenstown (ZQN),-41.2889,174.7772,-45.031162,168.662643,641,124.354
+94,WLG,DUD,Wellington,Dunedin,New Zealand,New Zealand,Wellington (WLG),Dunedin (DUD),-41.2889,174.7772,-45.8742,170.5036,632,122.608
+95,WHK,AKL,Whakatane,Auckland,New Zealand,New Zealand,Whakatane (WHK),Auckland (AKL),-37.96,176.98,-36.8406,174.74,213,41.322
+96,WAG,AKL,Whanganui,Auckland,New Zealand,New Zealand,Whanganui (WAG),Auckland (AKL),-39.9331,175.0286,-36.8406,174.74,329,63.826
+97,WAG,PPQ,Whanganui,Paraparaumu,New Zealand,New Zealand,Whanganui (WAG),Paraparaumu (PPQ),-39.9331,175.0286,-40.9144,175.0056,105,20.37
+98,WRE,AKL,Whangarei,Auckland,New Zealand,New Zealand,Whangarei (WRE),Auckland (AKL),-35.725,174.3236,-36.8406,174.74,143,27.742
