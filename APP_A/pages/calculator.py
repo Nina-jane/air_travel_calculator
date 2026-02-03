@@ -5,6 +5,7 @@ import dash
 from dash import dcc, html, callback, Output, Input
 import dash_bootstrap_components as dbc
 import pandas as pd
+import os
 
 dash.register_page(__name__)
 
@@ -17,43 +18,43 @@ SQUARE_BUTTON_STYLE = {
     "fontSize": "16px",
 }
 
-#Change the following file that is loaded
-routes = pd.read_csv('C:/Users/em14576/OneDrive - AUT University/3. Projects/5. Air travel emissions calculator/APP_A/nz_routes_and_emissions.csv', encoding='cp1252')
+thisPath = os.path.abspath(os.path.dirname(__file__))
+routes = pd.read_csv(os.path.join(thisPath, os.pardir,'nz_routes_and_emissions.csv'), encoding='cp1252')
 
 layout = html.Div(
     [       
-        dbc.Row(
-            [
-                dbc.Col(
-                    [
-                        html.H5("Will your trip be one-way, return or multi-stage?", style={'color': '#ccc'}),
-                        html.Br(),
-                        dcc.RadioItems(
-                            options=[' One-way', ' Return (same flight path there, same flight path back)', ' Multi-stage'],
-                            style={'color': '#ccc'},
-                            #value='One-way'
-                        ),
-                        html.Br(),
-                    ]#, xs=3, sm=3, md=4, lg=4, xl=4, xxl=4
-                )
-            ]
-        ),
-        dbc.Row(
-            [
-                dbc.Col(
-                    [
-                        html.H5("Will your trip be domestic or international", style={'color': '#ccc'}),
-                        html.Br(),
-                        dcc.RadioItems(
-                            options=[' Domestic (within NZ only)',' International'],
-                            style={'color': '#ccc'},
-                            #value='Domestic'
-                        ),
-                        html.Br(),
-                    ]#, xs=3, sm=3, md=4, lg=4, xl=4, xxl=4
-                )
-            ]
-        ),
+        # dbc.Row(
+        #     [
+        #         dbc.Col(
+        #             [
+        #                 html.H5("Will your trip be one-way, return or multi-stage?", style={'color': '#ccc'}),
+        #                 html.Br(),
+        #                 dcc.RadioItems(
+        #                     options=[' One-way', ' Return (same flight path there, same flight path back)', ' Multi-stage'],
+        #                     style={'color': '#ccc'},
+        #                     #value='One-way'
+        #                 ),
+        #                 html.Br(),
+        #             ]#, xs=3, sm=3, md=4, lg=4, xl=4, xxl=4
+        #         )
+        #     ]
+        # ),
+        # dbc.Row(
+        #     [
+        #         dbc.Col(
+        #             [
+        #                 html.H5("Will your trip be domestic or international", style={'color': '#ccc'}),
+        #                 html.Br(),
+        #                 dcc.RadioItems(
+        #                     options=[' Domestic (within NZ only)',' International'],
+        #                     style={'color': '#ccc'},
+        #                     #value='Domestic'
+        #                 ),
+        #                 html.Br(),
+        #             ]#, xs=3, sm=3, md=4, lg=4, xl=4, xxl=4
+        #         )
+        #     ]
+        # ),
         dbc.Row(
             [
                 dbc.Col(
