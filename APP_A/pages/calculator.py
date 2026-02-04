@@ -71,16 +71,17 @@ layout = html.Div(
                 ),
                 dbc.Col(
                     [
-                        html.H5("Which country will you travel to?", style={'color': '#ccc'}),
+                        html.H5("Which airport will you travel from?", style={'color': '#ccc'}),
                         html.Br(),
                         dcc.Dropdown(
-                            id='dropdown-2',
-                            options=sorted(routes['ArrCountry'].unique()), #Change this
-                            value=['Australia'],
-                            placeholder='Select destination...'
+                            id='dropdown-3',
+                            options=sorted(routes['DepAirport'].unique()), #Change this
+                            value=['WLG'],
+                            placeholder='Enter the three letter aiport code...'
                         ),
                     ], xs=3, sm=3, md=4, lg=4, xl=4, xxl=4
-                )
+                ),
+                
             ]
         ),
         dbc.Row(
@@ -94,18 +95,20 @@ layout = html.Div(
             [
                 dbc.Col(
                     [
-                        html.H5("Which airport will you travel from?", style={'color': '#ccc'}),
+                        html.H5("Which country will you travel to?", style={'color': '#ccc'}),
+                        html.Br(),
                         dcc.Dropdown(
-                            id='dropdown-3',
-                            options=sorted(routes['DepAirport'].unique()), #Change this
-                            value=['WLG'],
-                            placeholder='Enter the three letter aiport code...'
+                            id='dropdown-2',
+                            options=sorted(routes['ArrCountry'].unique()), #Change this
+                            value=['Australia'],
+                            placeholder='Select destination...'
                         ),
                     ], xs=3, sm=3, md=4, lg=4, xl=4, xxl=4
                 ),
                 dbc.Col(
                     [
                         html.H5("Which airport will you travel to?", style={'color': '#ccc'}),
+                        html.Br(),
                         dcc.Dropdown(
                             id='dropdown-4',
                             options=sorted(routes['ArrAirport'].unique()), #Change this

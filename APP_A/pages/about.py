@@ -23,7 +23,7 @@ layout = html.Div(
                                 "This calculator includes domestic NZ flights only.",
                                 html.Br(),
                                 html.Br(),
-                                " The emissions factors come from the Ministry for the Environment\'s 2025 ", html.Em("Calculating Emissions Factors")," report."
+                                " The emissions factors come from the Ministry for the Environment\'s ", html.Em("Measuring emissions guide 2025"),"."
                             ]
                         ),
                     ], xs=6, sm=6, md=8, lg=8, xl=8, xxl=8
