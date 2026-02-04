@@ -1,6 +1,7 @@
 import dash
 from dash import dcc, html
 import dash_bootstrap_components as dbc
+import os
 
 app = dash.Dash (__name__, use_pages=True, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP]) #suppress_callback_exceptions=True)
 
@@ -60,7 +61,11 @@ app.layout = html.Div(
 )
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Get the port from the environment variable or use a default (e.g., 5000 for local testing)
+    port = int(os.environ.get("PORT", 5000))
+    # Bind to 0.0.0.0 to make the server accessible externally
+    app.run(host='0.0.0.0', port=port, debug=True)
+    #app.run(debug=True)
 
 # sidebar = dbc.Nav(
 #             [
